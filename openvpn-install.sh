@@ -69,6 +69,7 @@ auth SHA256
 persist-key
 persist-tun
 verb 3
+duplicate-cn
 EOF
 
 # Enable IP forwarding
@@ -150,7 +151,6 @@ remote-cert-tls server
 auth SHA256
 cipher AES-256-CBC
 verb 3
-duplicate-cn
 
 <ca>
 $(cat "$OVPN_DIR/ca.crt")
