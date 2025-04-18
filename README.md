@@ -3,7 +3,7 @@ Basic openserver installation with torrent blocking iptable rules
 
 the script accepts two positional arguments. First is port then is protocol. Default values are '1194 udp'
 
-    ./openvpn-install 443 tcp
+    ./openvpn-install.sh 443 tcp
 
 ## Torrent Blocking rules
 This is not a complete fail-proof solution but it manages to block some traffic. 
